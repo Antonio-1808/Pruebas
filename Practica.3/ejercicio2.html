@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="">
+            <input id="numero1" type="text">
+            <p>+</p>
+            <input id="numero2" type="text">
+            <p>+</p>
+            <input id="numero3" type="text">
+            <input id="num_medio" type="text"><br><br>
+            <input type="button" class="btn" onclick="valores()" value="Numero del medio">
+        </form>
+    </div>
+    <script>
+        function valores(numero1,numero2,numero3){
+            var A = parseFloat(document.getElementById('numero1').value);
+            var B = parseFloat(document.getElementById('numero2').value);
+            var C = parseFloat(document.getElementById('numero3').value);
+            var num_medio = (B);
+            var error =("Los N°tiene que ser distintos");
+            if(A!=B){
+                document.getElementById("num_medio").value = num_medio;
+            }
+            if(C!=B){
+                document.getElementById("num_medio").value = num_medio;
+            }else{
+                document.getElementById("num_medio").value = error;
+            }
+
+        }
+    </script>
+</body>
+</html>

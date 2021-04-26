@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio3.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="">
+            <input id="numero1" type="text">
+            <p>+</p>
+            <input id="numero2" type="text">
+            <input type="button" class="btn" onclick="factorial()" value="Factorial">
+        </form>
+    </div>
+    <script>
+        function factorial(numero1){
+            var A = parseFloat(document.getElementById('numero1').value);
+            var num_fact = A;
+            for(var i = 1;i<A;i++){
+                num_fact = num_fact*i;
+
+                }
+            
+            document.getElementById('numero2').value = num_fact;
+        }
+    </script>
+</body>
+</html>
