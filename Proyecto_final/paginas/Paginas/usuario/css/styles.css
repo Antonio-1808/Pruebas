@@ -357,7 +357,7 @@ body{
 }
 .our-projects .container-project .project-title h2:active{
     color: blue;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .our-projects .container-project .project-title hr{
@@ -381,8 +381,8 @@ body{
   border-radius: 10px;
   cursor: pointer;
 }
-  .our-projects .container-project .project-img .img1:active{
-      width: 100px;
+/* .our-projects .container-project .project-img .img1:active{
+      width: 600px;*/
 }
 @media only screen and (max-width:773px){
     .our-projects .container-project .project-img img{width: 80%; margin-bottom: 30px;}
@@ -430,8 +430,8 @@ body{
     margin-bottom: 30px;
 }
 .testimonios .box-testimonio .card-testimonio .card-img img{
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
@@ -624,4 +624,3 @@ body{
     .footer .footer-text{width: 100%; padding: 0px 30px;}
     .footer .footer-text p{font-size: 17px;}
 }
-
